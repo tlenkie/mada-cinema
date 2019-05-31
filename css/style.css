@@ -1,0 +1,262 @@
+@import url('https://fontlibrary.org/face/lato');
+.nick-hover {
+	transition: all 0.1s ease-out;
+}
+#emotelistbtn:hover {
+color: #ef5350;
+}
+#emotelistbtn .secb {
+display:none;
+}
+#emotelistbtn:hover .secb {
+display:inline;
+}
+#emotelistbtn:hover .firstb {
+display:none;
+}
+#mainpage {
+	padding-top: 20px;
+}
+.server-msg-reconnect {
+	border: 1px solid #313338;
+	border-left: 5px solid #409CD9;
+	font-size: 14px;
+	color: #96ABAA;
+	text-align: left;
+	padding-left: 10px;
+	background: #34363C;
+}
+
+/* НАВБАР */
+.navbar {
+	border: none;
+	min-height: 10px;
+	max-height: 25px;
+	/*display: none;*/
+}
+
+.navbar * {
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+}
+
+.navbar form {
+	display: none;
+}
+
+.navbar-inverse {
+	background-image: none;
+	background-color: #23272A;
+	opacity: 0.05;
+	-webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+
+.navbar-inverse:hover {
+	opacity: 0.95;
+}
+
+.navbar-header {
+	display: none;
+}
+
+.nav>li>a {
+	padding: 5px 15px;
+}
+
+.tab.active {
+	border-color: #7289DA;
+}
+.tab {
+	margin: 0 !important;
+	transition: all 1s ease-out;
+}
+.nav-tabs > li > a{
+	background-color: transparent;
+	border: none !important;
+	border-top: 2px solid transparent;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	border-top-color: #7289DA;
+	background-color: #23272A;
+}
+.tab > a > span {
+	display: block;
+}
+/* КОНТЕЙНЕР */
+.channel-emote {
+	max-width: 70px;
+}
+body {
+	padding: 0;
+	background-image: none;
+	background-color: #2C2F33;
+}
+.container-fluid {
+	padding: 0;
+}
+
+.chat-msg-tlenkie .username {
+    color: #FF7043;
+}
+
+.chat-msg-secubu .username {
+    color: #5C6BC0;
+}
+
+body, .credit {
+font-family: 'LatoRegular', sans-serif !important;
+}
+#videowrap .embed-responsive {
+box-shadow: 0 11px 21px -8px black;
+border-radius: 10px;
+}
+.credit span {
+color:#ef5350;
+font-size:1.6em;
+}
+.row {
+margin-right: 0;
+margin-left: 0;
+}
+
+#queuefail + div {
+padding: 0;
+overflow: hidden;
+position: relative;
+padding-bottom: 20px;
+}
+
+#plmeta {
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+.qe_title {
+white-space: nowrap;
+overflow: hidden;
+display: block;
+text-overflow: ellipsis;
+width: 80%;
+}
+#chatline {
+border-radius: 20px;
+border: none;
+}
+#messagebuffer {
+border-radius: 0 10px 0 0;
+
+}
+.nav-tabs {
+border-bottom: 0
+}
+.container .credit {
+margin: 5px;
+}
+#footer {
+min-height: 0;
+background-color: rgba(0, 0, 0, 0) !important;
+}
+#wrap {
+overflow: hidden;
+}
+#chatwrap {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+#inp-tex, #but-smi {
+padding: 0;
+}
+#but-smi {
+padding-left: 3px;
+}
+#but-smi {
+	position: absolute;
+    right: 30px;
+    bottom: 0;
+    height: 100%;
+}
+#inp-tex {
+	padding: 0 5px;
+	position: relative;
+}
+#emotelistbtn {
+	width: 25px;
+    padding: 0;
+    height: 100%;
+    background: transparent;
+    font-size: 20px;
+	-webkit-transition: font-size 0.1s ease-out;
+    -moz-transition: font-size 0.1s ease-out;
+    -o-transition: font-size 0.1s ease-out;
+    transition: font-size 0.1s ease-out;
+}
+#emotelistbtn:focus {
+	outline: none;
+}
+#emotelistbtn:hover {
+	font-size: 24px;
+}
+#chatwrap li.tab {
+width: 50%;
+text-align: center;
+}
+.tab:nth-child(1) > a {
+border-radius: 3px 0 0 0;
+}
+.tab:nth-child(2) > a{
+border-radius: 0 3px 0 0;
+}
+#playlistmate {
+background-color: rgba(0, 0, 0, 0.33);
+}
+#messagebuffer {
+	box-sizing: content-box;
+    padding-bottom: 55px;
+    background-color: #23272A;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 11px 21px -8px black;
+}
+#messagebuffer > div {
+	position: relative;
+}
+.form-control:focus {
+    border-color: #7289DA!important;
+    border-top: 3px solid #7289DA!important;
+}
+
+.timestamp {
+	position: absolute;
+    background-color: #7289DA;
+    padding: 2px;
+    border-radius: 4px;
+    font-weight: bold;
+    display: block;
+    opacity: 0;
+    right: 0;
+    top: 0;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+
+div:hover > .timestamp {
+	opacity: 1;
+}
+
+#chatmate > .row {
+	position: relative;
+	top: -45px;
+}
+
+/*НЕНУЖНО*/
+
+#videocontrols, #userlisttoggle, #showsearch,
+#userlist, #currenttitle, #chatheader, #newpollbtn,
+#leftpane, #showplaylistmanager, #qlockbtn,
+.qbtn-tmp, .qbtn-next, #shuffleplaylist, #leftcontrols {
+display: none;
+}
